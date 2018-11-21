@@ -1,4 +1,6 @@
-class CreateShows < ActiveRecord::Migrations
+require 'pry'
+
+class CreateShows < ActiveRecord::Migration
   def change
     create_table :shows do |t|
       t.string :name
